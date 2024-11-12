@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gems"
+version = "0.1.0"
+description = "Gems Challenge"
+authors = ["Victor Moraleda Ojalvo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
